@@ -1,8 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoRental.Entities", "VideoRental.Entities\VideoRental.Entities.csproj", "{351CEFD2-4390-46CA-A466-E9E56F8ECC15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoRental.Data", "VideoRental.Data\VideoRental.Data.csproj", "{DB679776-FAC9-484A-B703-0E178DA8A907}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{351CEFD2-4390-46CA-A466-E9E56F8ECC15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351CEFD2-4390-46CA-A466-E9E56F8ECC15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351CEFD2-4390-46CA-A466-E9E56F8ECC15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351CEFD2-4390-46CA-A466-E9E56F8ECC15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB679776-FAC9-484A-B703-0E178DA8A907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB679776-FAC9-484A-B703-0E178DA8A907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB679776-FAC9-484A-B703-0E178DA8A907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB679776-FAC9-484A-B703-0E178DA8A907}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
