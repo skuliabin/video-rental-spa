@@ -4,7 +4,7 @@ using VideoRental.Entities;
 
 namespace VideoRental.Data
 {
-    public class UserRoleConfiguration : IEntityTypeConfiguration<UserRole>
+    internal class UserRoleConfiguration : IEntityTypeConfiguration<UserRole>
     {
         public void Configure(EntityTypeBuilder<UserRole> builder)
         {

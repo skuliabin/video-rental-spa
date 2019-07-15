@@ -4,7 +4,7 @@ using VideoRental.Entities;
 
 namespace VideoRental.Data.Configurations
 {
-    public class RentalConfiguration : IEntityTypeConfiguration<Rental>
+    internal class RentalConfiguration : IEntityTypeConfiguration<Rental>
     {
         public void Configure(EntityTypeBuilder<Rental> builder)
         {
