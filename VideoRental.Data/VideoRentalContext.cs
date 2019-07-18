@@ -8,7 +8,7 @@ namespace VideoRental.Data
     {
         public VideoRentalContext()
         {
-            Database.EnsureCreated();
+            Database.Migrate();
         }
 
         #region Entity Sets
@@ -33,7 +33,7 @@ namespace VideoRental.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-                @"Data Source=(LocalDb)\v11.0;Initial Catalog=HomeCinema;Integrated Security=SSPI; MultipleActiveResultSets=true providerName=System.Data.SqlClient");
+                @"Password=Qwerty123;Persist Security Info=True;User ID=sa;Initial Catalog=VideoRental;Data Source=Sergei-Pc");
             optionsBuilder.UseLazyLoadingProxies();
         }
 
